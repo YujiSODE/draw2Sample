@@ -12,7 +12,7 @@ ______
 
 ##How to generating values following a given distribution
 1. __"Sample (_Sp_)":__ _"Rnd"_ in the result output of "draw2Sample.js"  
-2. __Generating target values;__ the target values are obtained with bootstrap Method () via _Sp_.
+2. __Generating target values;__ the target values are obtained with bootstrap Method (Efron,1979) via _Sp_.
 
 ##How to use
 * call "draw2Sample()" in a html file with img/canvas tag.
@@ -31,3 +31,7 @@ ______
 ##Example with the standard normal distribution
 ###Script used for drawing graph
 * stdNormDist100pt.js
+
+______
+##Reference
+* Efron, B. 1979. Bootstrap Methods: Another Look at the Jackknife. Ann. Statist. vol. 7, no. 1, p. 1-26.
