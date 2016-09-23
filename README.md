@@ -16,4 +16,6 @@ ______
 1. 
 
 ______
-##Example
+##Example with the standard normal distribution
+###Script used for drawing graph
+* stdNormDist100pt.js
