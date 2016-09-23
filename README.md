@@ -7,6 +7,8 @@ https://github.com/YujiSODE/draw2Sample
 >See LICENSE or http://opensource.org/licenses/mit-license.php
 ______
 
+##Concept
+
 ##Script
 * draw2Sample.js
 
