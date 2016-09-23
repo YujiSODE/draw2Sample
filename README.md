@@ -72,7 +72,7 @@ ______
 __Figure 2. Sampling example with the standard normal distribution by script.__
 
 ###1-sample t-test
-`<Sample size:2527>`
+The sampled size by "draw2Sample.js": `<Sample size:2527>`
 
 1. `[Resampled size:100;Given mean:0;Simulation:100times;Significance level:0.025]`  
    Result: `Rejection rate:0`
