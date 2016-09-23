@@ -36,6 +36,7 @@ ______
    * __"Show sampling line" button;__ it shows "Sampling interval" as vertical lines.
    * __"Clear sampling line" button;__ it clears "Sampling interval" shown by __"Show sampling line" button__.
    * __"Clear drawing" button;__ it clears drawn graph (2.).
+   * __"Run sampling" button;__ it runs sampling and outputs results into "Result".
    * 
 
 ______
