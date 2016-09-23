@@ -69,7 +69,7 @@ ______
 ###Sampling parameters
 `/*Fri_Sep_09_2016_17:01:16_GMT+0900_(JST),Sampling interval:20,Size: W x H = 400 x 400 px*/`
 
-![](./stdNormDist_scriptOutputAll.jpg)  
+![Sampling example with the standard normal distribution by script:stdNormDist_scriptOutputAll.jpg](./stdNormDist_scriptOutputAll.jpg)  
 __Figure 2. Sampling example with the standard normal distribution by script.__  
 ###1-sample t-test
 `<Sample size:2527>`
