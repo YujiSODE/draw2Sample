@@ -41,7 +41,7 @@ ______
    * __"Result";__ where results are output, and additional comments are also available here.
    * __"Clear result" button;__ it clears output results in __"Result"__.
    * __"Email address":__ email address used outputting __"Result"__ as email format.
-   * __""__
+   * __"Output as email" button;__ it saves the __"Result"__ as email to given address.
 
 ______
 ##Example with the standard normal distribution
