@@ -39,7 +39,9 @@ ______
    * __"Run sampling" button;__ it runs sampling and outputs results into __"Result"__.
    * __"Close" button;__ it closes this interface.
    * __"Result";__ where results are output, and additional comments are also available here.
-   * 
+   * __"Clear result" button;__ it clears output results in __"Result"__.
+   * __"Email address":__ email address used outputting __"Result"__ as email format.
+   * __""__
 
 ______
 ##Example with the standard normal distribution
