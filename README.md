@@ -44,7 +44,8 @@ ______
    * __"Output as email" button;__ it saves the __"Result"__ as email to given address.
 
    ####_Output data_  
-   * dataLog: csv formatted values expressed as _n_@_y_ for _n_-th sampling result: _y_ with top left corner as origin.
+   * dataLog: csv formatted values expressed as _n_@_y_ for a _n_-th sampling result: _y_ with top left corner as origin.
+   * x@f(x): csv formatted values expressed as _x_@_f_ (_x_) for a value of _f_ (_x_) at _x_ with bottom left as origin.
    * 
 
 ______
