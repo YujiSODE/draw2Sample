@@ -11,7 +11,7 @@ ______
 * draw2Sample.js
 
 ##How to generating values following a given distribution
-1. __"Sample (_Sp_)":__ _"Rnd"_ in the result output of "draw2Sample.js"  
+1. __"Sample (_Sp_)":__ "Rnd" in the result output of "draw2Sample.js"  
 2. __Generating target values;__ the target values are obtained with bootstrap Method (Efron,1979) via _Sp_.
 
 ##How to use
@@ -46,7 +46,7 @@ ______
    ####_Output data_  
    * dataLog: csv formatted values expressed as _n_@_y_ for a _n_-th sampling result: _y_ with top left corner as origin.
    * x@f(x): csv formatted values expressed as _x_@_f_ (_x_) for a value of _f_ (_x_) at _x_ with bottom left as origin.
-   * 
+   * __Rnd:__ csv formatted values
 
 ______
 ##Example with the standard normal distribution
