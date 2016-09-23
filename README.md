@@ -11,7 +11,7 @@ ______
 ![the concept of graphical sampling: draw2Sample_Fig.png](./draw2Sample_Fig.png)  
 __Figure 1.__ the concept of graphical sampling.
 
-
+The sample (_Sp_) as a result of graphical sampling can be expressed with graphical data (_W_ x _H_ px) as follows:
 
 ##Script
 * draw2Sample.js
