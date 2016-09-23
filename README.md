@@ -11,7 +11,7 @@ ______
 * draw2Sample.js
 
 ##How to generating values following a given distribution
-1. __"Sample (_Sp_)":__ "Rnd" in the result output of "draw2Sample.js"  
+1. __"Sample (_Sp_)":__ ["Rnd"](#output-data) in the result output of "draw2Sample.js"  
 2. __Generating target values;__ the target values are obtained with bootstrap Method (Efron,1979) via _Sp_.
 
 ##How to use
