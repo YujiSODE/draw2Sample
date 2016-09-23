@@ -66,6 +66,10 @@ ______
 ###Script used for drawing graph
 * stdNormDist100pt.js
 
+###Sampling parameters
+`/*Fri_Sep_09_2016_17:01:16_GMT+0900_(JST),Sampling interval:20,Size: W x H = 400 x 400 px*/`
+###1-sample t-test
+
 ______
 ##Reference
 * Efron, B. 1979. Bootstrap Methods: Another Look at the Jackknife. Ann. Statist. vol. 7, no. 1, p. 1-26.
