@@ -12,7 +12,8 @@ ______
 __Figure 1. the concept of graphical sampling.__ _f_ (_x_) is a graph drawn on graphical data (_W_ x _H_ px). 
 
 
-The sample (_Sp_) as a result of graphical sampling can be expressed with graphical data (_W_ x _H_ px) as follows:
+The sample (_Sp_) as a result of graphical sampling can be expressed with graphical data (_W_ x _H_ px) as follows:  
+let graphical heights of _f_ (_x1_) and _f_ (_x2_) as _a1_ and _a2_,
 
 ##Script
 * draw2Sample.js
