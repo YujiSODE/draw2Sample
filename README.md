@@ -70,7 +70,8 @@ ______
 
 ![Sampling example with the standard normal distribution by script:stdNormDist_scriptOutputAll.jpg](./stdNormDist_scriptOutputAll.jpg)  
 __Figure 2. Sampling example with the standard normal distribution by script.__ Blue and red lines show a graph  
-of the standard normal distribution by script and a recognized distribution respectively. 
+of the standard normal distribution by script and a recognized distribution respectively. Vertical lines show where  
+sampled from blue graph.
 
 ###1-sample t-test
 The sampled size by "draw2Sample.js": `<Sample size:2527>`
