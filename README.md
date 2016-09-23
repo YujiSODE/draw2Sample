@@ -11,7 +11,9 @@ ______
 * draw2Sample.js
 
 ##How to use
+* call "draw2Sample()" in a html file with img/canvas tag.
 
+1. 
 
 ______
 ##Example
