@@ -29,6 +29,7 @@ ______
    The sampling from the given graph (2.) is run with __"Run sampling" button__, and the result output is shown in __"Result"__.  
    ####Inputs and Buttons  
    * __"Target width":__ the target sampling area, expressed with left side x coordinate (x0) and width (w), shown in red.
+   * __"Sampling interval";__ it sets how many times the given graph (2.) is sampled in a given target area, starting with x0.
    * 
 
 ______
