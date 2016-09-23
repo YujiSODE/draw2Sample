@@ -8,6 +8,10 @@ https://github.com/YujiSODE/draw2Sample
 ______
 
 ##Concept
+![the concept of graphical sampling: draw2Sample_Fig.png](./draw2Sample_Fig.png)  
+__Figure 1.__ the concept of graphical sampling.
+
+
 
 ##Script
 * draw2Sample.js
