@@ -9,8 +9,7 @@ ______
 
 ##Concept
 ![Concept of graphical sampling:draw2Sample_Fig.png](./draw2Sample_Fig.png)  
-__Figure 1. Concept of graphical sampling.__ _f_ (_x_) is a graph drawn on graphical data (_W_ x _H_ px). 
-
+__Figure 1. Concept of graphical sampling.__ _f_ (_x_) is a graph drawn on graphical data (_W_ x _H_ px).
 
 The sample (_Sp_) as a result of graphical sampling with graphical data: _W_ x _H_ px (Figure 1) can be expressed as follows:  
 let graphical heights of _f_ (_x1_) and _f_ (_x2_) be _a1_ px and _a2_ px respectively,  
@@ -70,7 +69,8 @@ ______
 `/*Fri_Sep_09_2016_17:01:16_GMT+0900_(JST),Sampling interval:20,Size: W x H = 400 x 400 px*/`
 
 ![Sampling example with the standard normal distribution by script:stdNormDist_scriptOutputAll.jpg](./stdNormDist_scriptOutputAll.jpg)  
-__Figure 2. Sampling example with the standard normal distribution by script.__  
+__Figure 2. Sampling example with the standard normal distribution by script.__
+
 ###1-sample t-test
 `<Sample size:2527>`
 
