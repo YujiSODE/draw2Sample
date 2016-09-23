@@ -31,7 +31,8 @@ ______
    * __"Target width":__ the target sampling area, expressed with left side x coordinate (x0) and width (w), shown in red.
    * __"Sampling interval";__ it sets how many times the given graph (2.) is sampled in a given target area, starting with x0.
    * __"Range of values":__ the true x-coordinate values in the target sampling area, expressed with left side (v0) and right side (v).
-   * 
+   * __"Clear image" button;__ it clears the selected image (1.), which is shown under the drawing layer.
+   * __""__
 
 ______
 ##Example with the standard normal distribution
