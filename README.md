@@ -28,7 +28,7 @@ ______
 3. __Sampling__  
    The sampling from the given graph (2.) is run with __"Run sampling" button__, and the result output is shown in __"Result"__.  
 
-   ####Inputs and Buttons  
+   ####_Inputs and Buttons_  
    * __"Target width":__ the target sampling area, expressed with left side x coordinate (x0) and width (w), shown in red.
    * __"Sampling interval";__ it sets how many times the given graph (2.) is sampled in a given target area, starting with x0.
    * __"Range of values":__ the true x-coordinate values in the target sampling area, expressed with left side (v0) and right side (v).
@@ -42,6 +42,9 @@ ______
    * __"Clear result" button;__ it clears output results in __"Result"__.
    * __"Email address":__ email address used outputting __"Result"__ as email format.
    * __"Output as email" button;__ it saves the __"Result"__ as email to given address.
+
+   ####_Output data_  
+   * __
 
 ______
 ##Example with the standard normal distribution
