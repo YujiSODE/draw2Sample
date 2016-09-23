@@ -8,8 +8,8 @@ https://github.com/YujiSODE/draw2Sample
 ______
 
 ##Concept
-![the concept of graphical sampling:draw2Sample_Fig.png](./draw2Sample_Fig.png)  
-__Figure 1. the concept of graphical sampling.__ _f_ (_x_) is a graph drawn on graphical data (_W_ x _H_ px). 
+![Concept of graphical sampling:draw2Sample_Fig.png](./draw2Sample_Fig.png)  
+__Figure 1. Concept of graphical sampling.__ _f_ (_x_) is a graph drawn on graphical data (_W_ x _H_ px). 
 
 
 The sample (_Sp_) as a result of graphical sampling with graphical data: _W_ x _H_ px (Figure 1) can be expressed as follows:  
@@ -69,7 +69,7 @@ ______
 ###Sampling parameters
 `/*Fri_Sep_09_2016_17:01:16_GMT+0900_(JST),Sampling interval:20,Size: W x H = 400 x 400 px*/`  
 ![](./stdNormDist_scriptOutputAll.jpg)  
-__Figure 2.__  
+__Figure 2. Sampling example with the standard normal distribution by script.__  
 ###1-sample t-test
 
 ______
