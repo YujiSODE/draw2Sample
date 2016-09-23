@@ -27,7 +27,9 @@ ______
 
 3. __Sampling__  
    The sampling from the given graph (2.) is run with __"Run sampling" button__, and the result output is shown in __"Result"__.  
-
+   ####Inputs and Buttons  
+   * __"Target width":__ the target sampling area, expressed with x0 and width (w).
+   * 
 
 ______
 ##Example with the standard normal distribution
