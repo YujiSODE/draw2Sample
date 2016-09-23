@@ -18,7 +18,7 @@ let graphical heights of _f_ (_x1_) and _f_ (_x2_) as _a1_ px and _a2_ px,
 and  
 (2)   _Sp_ = _x0_ \* _a0_, _x1_ \* _a1_, _x2_ \* _a2_, ..., _xn_ \* _an_  
 RGBA color value in a pixel is available in order to recognize the shape of the graph.  
-
+The alpha value is used in this program.
 
 ##Script
 * draw2Sample.js
