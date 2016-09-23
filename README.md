@@ -25,7 +25,9 @@ ______
    "canvas id": the id of canvas tag to draw graph.  
    "Size": size of the selecting canvas tag, expressed with Width (W) and Height (H).
 
-3. 
+3. __Sampling__  
+   The sampling from the given graph (2.) is run with __"Run sampling" button__, and the result output is shown in __"Result"__.  
+
 
 ______
 ##Example with the standard normal distribution
