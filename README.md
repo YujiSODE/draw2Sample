@@ -69,7 +69,8 @@ ______
 `/*Fri_Sep_09_2016_17:01:16_GMT+0900_(JST),Sampling interval:20,Size: W x H = 400 x 400 px*/`
 
 ![Sampling example with the standard normal distribution by script:stdNormDist_scriptOutputAll.jpg](./stdNormDist_scriptOutputAll.jpg)  
-__Figure 2. Sampling example with the standard normal distribution by script.__
+__Figure 2. Sampling example with the standard normal distribution by script.__ Blue and red lines show a graph  
+of the standard normal distribution by script and a recognized distribution respectively. 
 
 ###1-sample t-test
 The sampled size by "draw2Sample.js": `<Sample size:2527>`
