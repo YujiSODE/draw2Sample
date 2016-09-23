@@ -30,7 +30,7 @@ ______
    ####Inputs and Buttons  
    * __"Target width":__ the target sampling area, expressed with left side x coordinate (x0) and width (w), shown in red.
    * __"Sampling interval";__ it sets how many times the given graph (2.) is sampled in a given target area, starting with x0.
-   * 
+   * __"Range of values":__ 
 
 ______
 ##Example with the standard normal distribution
