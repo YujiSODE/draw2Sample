@@ -13,7 +13,16 @@ ______
 ##How to use
 * call "draw2Sample()" in a html file with img/canvas tag.
 
-1. 
+1. __Selecting some target images__  
+   __Target tag;__ here target images can be selected.  
+
+2. __Draw graph__  
+   __Drawing;__ a graph can be drawn on the newly created canvas tag freehand or with script (see below ["Example"]()).  
+  
+   "canvas id": the id of canvas tag to draw graph.  
+   "Size": size of the selecting canvas tag, expressed with Width (W) and Height (H).
+
+3. 
 
 ______
 ##Example with the standard normal distribution
