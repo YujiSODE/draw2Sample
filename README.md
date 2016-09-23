@@ -67,10 +67,19 @@ ______
 * stdNormDist100pt.js
 
 ###Sampling parameters
-`/*Fri_Sep_09_2016_17:01:16_GMT+0900_(JST),Sampling interval:20,Size: W x H = 400 x 400 px*/`  
+`/*Fri_Sep_09_2016_17:01:16_GMT+0900_(JST),Sampling interval:20,Size: W x H = 400 x 400 px*/`
+
 ![](./stdNormDist_scriptOutputAll.jpg)  
 __Figure 2. Sampling example with the standard normal distribution by script.__  
 ###1-sample t-test
+`<Sample size:2527>`
+
+1. `[Resampled size:100;Given mean:0;Simulation:100times;Significance level:0.025]`  
+   Result: `Rejection rate:0`
+2. `[Resampled size:10;Given mean:0.0;Simulation:10000times;Significance level:0.025]`  
+   Result: `Rejection rate:0.0163`
+3. `[Resampled size:20;Given mean:0;Simulation:10000times;Significance level:0.025]`  
+   Result: `Rejection rate:0.0146`
 
 ______
 ##Reference
