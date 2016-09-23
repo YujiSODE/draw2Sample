@@ -10,6 +10,9 @@ ______
 ##Script
 * draw2Sample.js
 
+##Generating values following a given distribution
+1. __"Sample (Sp)":__ _"Rnd"_ in the result output of "draw2Sample.js"
+
 ##How to use
 * call "draw2Sample()" in a html file with img/canvas tag.
 
