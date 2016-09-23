@@ -21,7 +21,7 @@ ______
    __Target tag;__ here target images can be selected.  
 
 2. __Draw graph__  
-   __Drawing;__ a graph can be drawn on the newly created canvas tag freehand or with script (see [__"Example with the standard normal distribution"__](#example-with-the-standard-normal-distribution)).  
+   __Drawing;__ a graph can be drawn on the newly created canvas tag freehand or with script (see [__"Example with the standard normal distribution"__](./#example-with-the-standard-normal-distribution)).  
    "canvas id": the id of canvas tag to draw graph.  
    "Size": size of the selecting canvas tag, expressed with Width (W) and Height (H).
 
