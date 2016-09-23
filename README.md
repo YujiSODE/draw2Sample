@@ -8,7 +8,7 @@ https://github.com/YujiSODE/draw2Sample
 ______
 
 ##Script
-* file
+* draw2Sample.js
 
 ##How to use
 
