@@ -27,12 +27,15 @@ ______
 
 3. __Sampling__  
    The sampling from the given graph (2.) is run with __"Run sampling" button__, and the result output is shown in __"Result"__.  
+
    ####Inputs and Buttons  
    * __"Target width":__ the target sampling area, expressed with left side x coordinate (x0) and width (w), shown in red.
    * __"Sampling interval";__ it sets how many times the given graph (2.) is sampled in a given target area, starting with x0.
    * __"Range of values":__ the true x-coordinate values in the target sampling area, expressed with left side (v0) and right side (v).
    * __"Clear image" button;__ it clears the selected image (1.), which is shown under the drawing layer.
-   * __""__
+   * __"Show sampling line" button;__ it shows "Sampling interval" as vertical lines.
+   * __"Clear sampling line" button;__ it clears "Sampling interval" shown by __"Show sampling line" button__.
+   * 
 
 ______
 ##Example with the standard normal distribution
