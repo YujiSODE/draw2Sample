@@ -37,7 +37,8 @@ ______
    * __"Clear sampling line" button;__ it clears "Sampling interval" shown by __"Show sampling line" button__.
    * __"Clear drawing" button;__ it clears drawn graph (2.).
    * __"Run sampling" button;__ it runs sampling and outputs results into "Result".
-   * 
+   * __"Close" button;__ it closes this interface.
+   * __""__
 
 ______
 ##Example with the standard normal distribution
