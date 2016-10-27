@@ -1,0 +1,36 @@
+#Change Log
+##[1.2] - 2016-10-27
+
+##Changed
+- [pValue.js] line 48-50: `  W.addEventListener('message',function(e){`  
+  `    R.p=e.data[0],R.x=e.data[1],R.sampleSize=sampleSize,R.simulation=simulation;`  
+  `    slf.document.getElementsByTagName('body')[0].innerHTML+='<textarea>'+slf.JSON.stringify(R)+'</textarea>',R=null;`  
+  `  },true);`
+- [pValue.js] line 19: `  var slf=window,size=0,b,U,W,spt='',R={p:0,x:0,sampleSize:0,simulation:0};`
+- [pValue.js] line 18: `  function _pValue(data,x,sampleSize,simulation){`
+
+##[1.1beta] - 2016-10-26
+
+##Added
+- [pValue.js] line 9: `//probability estimator with given numerical data and bootstrap Method (Efron,1979) on Firefox.`
+
+##[1.1beta] - 2016-10-25
+
+##Changed
+- [pValue.js] line 29-34: added script using modified version of bootstrapEst-2.1/bootstrapMdl.js;
+
+##Added
+- added files: pValue.js
+
+##[1.1beta] - 2016-10-24
+
+##Removed
+- [bootstrapEst-2.1/bootstrapMdl.js] line 6-13: removed
+
+##Changed
+- [bootstrapEst-2.1/bootstrapMdl.js] line 14: `'var bts=function(A,n){var r=[],rdInt=0;for(var i=0;i<n;i+=1){rdInt=Math.floor(A.length*Math.random());r.push(A[rdInt]);}return r;},'`
+- [bootstrapEst-2.1/bootstrapMdl.js] line 1-10: `/*bootstrapEst-2.1/bootstrapMdl.js (Yuji SODE,2016)`  
+  `* This software is released under the MIT License. See http://opensource.org/licenses/mit-license.php`  
+  `* the simple interface for estimation of a value of statistic, with bootstrap Method (Efron,1979).`  
+  `* reference: Efron, B. 1979. Bootstrap Methods: Another Look at the Jackknife. Ann. Statist. vol. 7, no. 1, p. 1-26.`  
+  `*/`
