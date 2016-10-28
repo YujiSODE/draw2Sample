@@ -18,7 +18,7 @@
 function _pValue(data,x,sampleSize,simulation){
   var slf=window,size=0,b,U,W,spt='',R={p:0,x:0,sampleSize:0,simulation:0};
   //if x is numerical x=x, otherwise x='up25(d)'; 'up25(d)' is the upper 25% of a given values
-  x=(!x||!/^[+-]?[0-9]+(?:\.[0-9]+)?$/.test(+x))?'up25(d)':x;
+  if(+x!=0){x=(!x||!/^[+-]?[0-9]+(?:\.[0-9]+)?$/.test(+x))?'up25(d)':x;}else{x=0;}
   //smpleSize: positive integer
   if(!sampleSize){sampleSize=100;}else if(!/^[+]?[1-9][0-9]*$/.test(sampleSize)){throw new Error('sampleSize: invalid value');}
   //simulation: positive integer
