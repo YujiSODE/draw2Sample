@@ -4,7 +4,7 @@
 
 ##Added
 - [README.md] line 66-67: `______`  
-  `##\(Optional v1.2+\) Estimating p-value`
+  `##\[v1.2+\] Estimating p-value`
 - [README.md] line 33: `* \(Optional \[v1.2+\]\) call "_pValue()" of "pValue.js", in order to estimate p-value; (see [__Estimating p-value__]() for details of prameters).`
 - [README.md] line 29: `3. __\(Optional \[v1.2+\]\) Estimating p-value;__ p-value is estimated with "pValue.js" via _Sp_.`
 - [README.md] line 24: `* \[v1.2+\] pValue.js`
