@@ -77,7 +77,7 @@ ______
 `* simulation: numerical positive integer; 10 as default`  
 `*/`  
 p-value is estimated as probability: _P_(`x`) = _P_(_v_ >= `x`).  
-The estimation is based on resampled data with size (`sampleSize`) for n-time (`simulation`) simulation.
+The estimation is based on resampled data with size (`sampleSize`) for n-time (`simulation`) simulations.
 
 ______
 ##Example with the standard normal distribution
