@@ -26,7 +26,7 @@ The alpha value is used in this program; a pixel where alpha > 0 is regarded as 
 ##How to generating values following a given distribution
 1. __"Sample (_Sp_)":__ ["Rnd"](#output-data) in the result output of "draw2Sample.js"  
 2. __Generating target values;__ the target values are obtained with bootstrap Method (Efron,1979) via _Sp_.
-3. __\(Optional\) Estimating p-value;__ p-value is estimated with "pValue.js" via _Sp_.
+3. __\(Optional \[v1.2+\]\) Estimating p-value;__ p-value is estimated with "pValue.js" via _Sp_.
 
 ##How to use
 * call "draw2Sample()" in a html file with img/canvas tag.
@@ -61,6 +61,8 @@ The alpha value is used in this program; a pixel where alpha > 0 is regarded as 
    * dataLog: csv formatted values expressed as _n_@_y_ for a _n_-th sampling result: _y_ with top left corner as origin.
    * x@f(x): csv formatted values expressed as _x_@_f_ (_x_) for a value of _f_ (_x_) at _x_ with bottom left as origin.
    * __Rnd:__ csv formatted values estimated as results of a sampling.
+4. __\(Optional \[v1.2+\]\) Estimating p-value__  
+
 
 ______
 ##Example with the standard normal distribution
