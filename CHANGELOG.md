@@ -2,9 +2,23 @@
 
 ##[1.2] - 2016-10-29
 
+##Added
+- [README.md] line 115-118: `1. _P_(the upper 25% of given data):` `{"p":0.035,"x":1.7000000000000002,"sampleSize":100,"simulation":10}`  
+  `2. _P_(0):` `{"p":0.554,"x":0,"sampleSize":100,"simulation":10}`  
+  `3. _P_(-1.96):` `{"p":0.966,"x":-1.96,"sampleSize":100,"simulation":10}`  
+  `4. _P_(1.96):` `{"p":0.028,"x":1.96,"sampleSize":100,"simulation":10}`
+- [README.md] line 111-113: `###_p_-value estimation`  
+  `The sampled size by "draw2Sample.js":` `<Sample size:2527>`  
+  `_p_-value was estimated as probability on v-axis: _P_(`x`) = _P_(_v_ >= `x`).`
+
+1. _P_(the upper 25% of given data): `{"p":0.035,"x":1.7000000000000002,"sampleSize":100,"simulation":10}`
+2. _P_(0): `{"p":0.554,"x":0,"sampleSize":100,"simulation":10}`
+3. _P_(-1.96): `{"p":0.966,"x":-1.96,"sampleSize":100,"simulation":10}`
+4. _P_(1.96): `{"p":0.028,"x":1.96,"sampleSize":100,"simulation":10}`
+
 ##Changed
-- [README.md] line 79: _p_-value is estimated as probability on v-axis: _P_(`x`) = _P_(_v_ >= `x`).
-- [README.md] line 67: ##\[v1.2+\] Estimating _p_-value
+- [README.md] line 79: `_p_-value is estimated as probability on v-axis: _P_(`x`) = _P_(_v_ >= `x`).`
+- [README.md] line 67: `##\[v1.2+\] Estimating _p_-value`
 - [README.md] line 33: `* \(Optional \[v1.2+\]\) call "_pValue()" of "pValue.js", in order to estimate _p_-value; (see [__Estimating _p_-value__](#v12-estimating-p-value) for details of prameters).`
 - [README.md] line 29: `3. __\(Optional \[v1.2+\]\) Estimating _p_-value;__ _p_-value is estimated with "pValue.js" via _Sp_.`
 
