@@ -2,6 +2,10 @@
 
 ##[1.2] - 2016-10-29
 
+##Added
+- [README.md] line 68-69: `####__"pValue.js"__`  
+  `* Probability estimator with given numerical data and bootstrap Method (Efron,1979) on Firefox.`
+
 ##Changed
 - [README.md] line 33: `* \(Optional \[v1.2+\]\) call "_pValue()" of "pValue.js", in order to estimate p-value; (see [__Estimating p-value__](#v12-estimating-p-value) for details of prameters).`
 
