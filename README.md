@@ -26,11 +26,11 @@ The alpha value is used in this program; a pixel where alpha > 0 is regarded as 
 ##How to generating values following a given distribution
 1. __"Sample (_Sp_)":__ ["Rnd"](#output-data) in the result output of "draw2Sample.js"  
 2. __Generating target values;__ the target values are obtained with bootstrap Method (Efron,1979) via _Sp_.
-3. __\(Optional \[v1.2+\]\) Estimating p-value;__ p-value is estimated with "pValue.js" via _Sp_.
+3. __\(Optional \[v1.2+\]\) Estimating _p_-value;__ _p_-value is estimated with "pValue.js" via _Sp_.
 
 ##How to use
 * call "draw2Sample()" in a html file with img/canvas tag.
-* \(Optional \[v1.2+\]\) call "_pValue()" of "pValue.js", in order to estimate p-value; (see [__Estimating p-value__](#v12-estimating-p-value) for details of prameters).
+* \(Optional \[v1.2+\]\) call "_pValue()" of "pValue.js", in order to estimate _p_-value; (see [__Estimating _p_-value__](#v12-estimating-p-value) for details of prameters).
 
 1. __Selecting some target images__  
    __Target tag;__ here target images can be selected.  
@@ -64,7 +64,7 @@ The alpha value is used in this program; a pixel where alpha > 0 is regarded as 
    * __Rnd:__ csv formatted values estimated as results of a sampling.
 
 ______
-##\[v1.2+\] Estimating p-value
+##\[v1.2+\] Estimating _p_-value
 ####__"pValue.js"__
 * Probability estimator with given numerical data and bootstrap Method (Efron,1979) on Firefox.  
 `_pValue(data,x,sampleSize,simulation)`  
@@ -76,7 +76,7 @@ ______
 `* sampleSize: numerical positive integer; 100 as default`  
 `* simulation: numerical positive integer; 10 as default`  
 `*/`  
-p-value is estimated as probability: _P_(`x`) = _P_(_v_ >= `x`).  
+_p_-value is estimated as probability on v-axis: _P_(`x`) = _P_(_v_ >= `x`).  
 The estimation is based on resampled data with size (`sampleSize`) for n-time (`simulation`) simulations.
 
 ####Examples
