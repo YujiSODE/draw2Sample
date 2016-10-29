@@ -2,6 +2,12 @@
 
 ##[1.2] - 2016-10-29
 
+##Changed
+- [README.md] line 79: _p_-value is estimated as probability on v-axis: _P_(`x`) = _P_(_v_ >= `x`).
+- [README.md] line 67: ##\[v1.2+\] Estimating _p_-value
+- [README.md] line 33: `* \(Optional \[v1.2+\]\) call "_pValue()" of "pValue.js", in order to estimate _p_-value; (see [__Estimating _p_-value__](#v12-estimating-p-value) for details of prameters).`
+- [README.md] line 29: `3. __\(Optional \[v1.2+\]\) Estimating _p_-value;__ _p_-value is estimated with "pValue.js" via _Sp_.`
+
 ##Added
 - [README.md] line 82-86: `####Examples`  
   Script 1: `_pValue('1,2');` the result: `{"p":0.504,"x":1.75,"sampleSize":100,"simulation":10}`  
