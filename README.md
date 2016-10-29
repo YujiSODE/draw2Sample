@@ -109,12 +109,13 @@ The sampled size by "draw2Sample.js": `<Sample size:2527>`
    Result: `Rejection rate:0.0146`
    
 ###_p_-value estimation
-The sampled size by "draw2Sample.js": `<Sample size:2527>`
+The sampled size by "draw2Sample.js": `<Sample size:2527>`  
+_p_-value was estimated as probability on v-axis: _P_(`x`) = _P_(_v_ >= `x`).
 
-1. ``
-2. ``
-3. ``
-
+1. _P_(the upper 25% of given data): `{"p":0.035,"x":1.7000000000000002,"sampleSize":100,"simulation":10}`
+2. _P_(0): `{"p":0.554,"x":0,"sampleSize":100,"simulation":10}`
+3. _P_(-1.96): `{"p":0.966,"x":-1.96,"sampleSize":100,"simulation":10}`
+4. _P_(1.96): `{"p":0.028,"x":1.96,"sampleSize":100,"simulation":10}`
 
 ______
 ##Reference
