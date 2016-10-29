@@ -64,7 +64,7 @@ The alpha value is used in this program; a pixel where alpha > 0 is regarded as 
    * __Rnd:__ csv formatted values estimated as results of a sampling.
 
 ______
-##\(Optional v1.2+\) Estimating p-value
+##\[v1.2+\] Estimating p-value
 
 ______
 ##Example with the standard normal distribution
