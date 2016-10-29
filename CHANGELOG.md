@@ -3,6 +3,15 @@
 ##[1.2] - 2016-10-29
 
 ##Added
+- [README.md] line 70-78: `_pValue(data,x,sampleSize,simulation)`  
+  `/*`  
+  `*===<parameter>===`  
+  `* data: numerical data as csv formatted text e.g., '1,2,3,...'`  
+  `*===<optional parameters>===`  
+  `* x: numerical value; the upper 25% of a given values as default`  
+  `* sampleSize: numerical positive integer; 100 as default`  
+  `* simulation: numerical positive integer; 10 as default`  
+  `*/`
 - [README.md] line 68-69: `####__"pValue.js"__`  
   `* Probability estimator with given numerical data and bootstrap Method (Efron,1979) on Firefox.`
 
