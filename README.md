@@ -21,10 +21,12 @@ The alpha value is used in this program; a pixel where alpha > 0 is regarded as 
 
 ##Script
 * draw2Sample.js
+* \[v1.2+\] pValue.js
 
 ##How to generating values following a given distribution
 1. __"Sample (_Sp_)":__ ["Rnd"](#output-data) in the result output of "draw2Sample.js"  
 2. __Generating target values;__ the target values are obtained with bootstrap Method (Efron,1979) via _Sp_.
+3. __\(Optional\) Estimating p-value;__ p-value is estimated with "pValue.js" via _Sp_.
 
 ##How to use
 * call "draw2Sample()" in a html file with img/canvas tag.
