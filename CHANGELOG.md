@@ -2,6 +2,9 @@
 
 ##[1.2] - 2016-10-29
 
+##Changed
+- [README.md] line 33: `* \(Optional \[v1.2+\]\) call "_pValue()" of "pValue.js", in order to estimate p-value; (see [__Estimating p-value__](#v12-estimating-p-value) for details of prameters).`
+
 ##Added
 - [README.md] line 66-67: `______`  
   `##\[v1.2+\] Estimating p-value`
