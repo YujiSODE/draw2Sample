@@ -30,7 +30,7 @@ The alpha value is used in this program; a pixel where alpha > 0 is regarded as 
 
 ##How to use
 * call "draw2Sample()" in a html file with img/canvas tag.
-* \(Optional \[v1.2+\]\) call "_pValue()" of "pValue.js", in order to estimate p-value; (see [__Estimating p-value__](#optional-v12-estimating-p-value) for details of prameters).
+* \(Optional \[v1.2+\]\) call "_pValue()" of "pValue.js", in order to estimate p-value; (see [__Estimating p-value__](#v12-estimating-p-value) for details of prameters).
 
 1. __Selecting some target images__  
    __Target tag;__ here target images can be selected.  
