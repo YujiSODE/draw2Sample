@@ -79,6 +79,12 @@ ______
 p-value is estimated as probability: _P_(`x`) = _P_(_v_ >= `x`).  
 The estimation is based on resampled data with size (`sampleSize`) for n-time (`simulation`) simulations.
 
+####Examples
+Script 1: `_pValue('1,2');` the result: `{"p":0.504,"x":1.75,"sampleSize":100,"simulation":10}`  
+Script 2: `_pValue('1,2,3');` the result: `{"p":0.323,"x":2.5,"sampleSize":100,"simulation":10}`  
+Script 3: `_pValue('1,2,3',1.1);` the result: `{"p":0.676,"x":1.1,"sampleSize":100,"simulation":10}`  
+Script 4: `_pValue('1,2,3',2,10,1);` the result: `{"p":0.6,"x":2,"sampleSize":10,"simulation":1}`  
+
 ______
 ##Example with the standard normal distribution
 ###Script used for drawing graph
