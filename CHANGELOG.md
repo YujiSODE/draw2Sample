@@ -3,7 +3,7 @@
 ##[1.2] - 2016-10-29
 
 ##Added
-- [README.md] line 29: `3. __\(Optional\) Estimating p-value;__ p-value is estimated with "pValue.js" via _Sp_.`
+- [README.md] line 29: `3. __\(Optional \[v1.2+\]\) Estimating p-value;__ p-value is estimated with "pValue.js" via _Sp_.`
 - [README.md] line 24: `* \[v1.2+\] pValue.js`
 
 ##[1.2] - 2016-10-28
