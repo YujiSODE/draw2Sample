@@ -3,6 +3,8 @@
 ##[1.2] - 2016-10-29
 
 ##Added
+- [README.md] line 79-80: `p-value is estimated as probability: _P_(`x`) = _P_(_v_ >= `x`).`  
+  `The estimation is based on resampled data with size (`sampleSize`) for n-time (`simulation`) simulations.`
 - [README.md] line 70-78: `_pValue(data,x,sampleSize,simulation)`  
   `/*`  
   `*===<parameter>===`  
