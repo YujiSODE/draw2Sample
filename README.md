@@ -66,7 +66,16 @@ The alpha value is used in this program; a pixel where alpha > 0 is regarded as 
 ______
 ##\[v1.2+\] Estimating p-value
 ####__"pValue.js"__
-* Probability estimator with given numerical data and bootstrap Method (Efron,1979) on Firefox.
+* Probability estimator with given numerical data and bootstrap Method (Efron,1979) on Firefox.  
+`_pValue(data,x,sampleSize,simulation)`  
+`/*`  
+`*===<parameter>===`  
+`* data: numerical data as csv formatted text e.g., '1,2,3,...'`  
+`*===<optional parameters>===`  
+`* x: numerical value; the upper 25% of a given values as default`  
+`* sampleSize: numerical positive integer; 100 as default`  
+`* simulation: numerical positive integer; 10 as default`  
+`*/`
 
 ______
 ##Example with the standard normal distribution
