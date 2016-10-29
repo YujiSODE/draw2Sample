@@ -21,13 +21,16 @@ The alpha value is used in this program; a pixel where alpha > 0 is regarded as 
 
 ##Script
 * draw2Sample.js
+* \[v1.2+\] pValue.js
 
 ##How to generating values following a given distribution
 1. __"Sample (_Sp_)":__ ["Rnd"](#output-data) in the result output of "draw2Sample.js"  
 2. __Generating target values;__ the target values are obtained with bootstrap Method (Efron,1979) via _Sp_.
+3. __\(Optional \[v1.2+\]\) Estimating _p_-value;__ _p_-value is estimated with "pValue.js" via _Sp_.
 
 ##How to use
 * call "draw2Sample()" in a html file with img/canvas tag.
+* \(Optional \[v1.2+\]\) call "_pValue()" of "pValue.js", in order to estimate _p_-value; (see [__Estimating _p_-value__](#v12-estimating-p-value) for details of prameters).
 
 1. __Selecting some target images__  
    __Target tag;__ here target images can be selected.  
@@ -61,6 +64,28 @@ The alpha value is used in this program; a pixel where alpha > 0 is regarded as 
    * __Rnd:__ csv formatted values estimated as results of a sampling.
 
 ______
+##\[v1.2+\] Estimating _p_-value
+####__"pValue.js"__
+* Probability estimator with given numerical data and bootstrap Method (Efron,1979) on Firefox.  
+`_pValue(data,x,sampleSize,simulation)`  
+`/*`  
+`*===<parameter>===`  
+`* data: numerical data as csv formatted text e.g., '1,2,3,...'`  
+`*===<optional parameters>===`  
+`* x: numerical value; the upper 25% of a given values as default`  
+`* sampleSize: numerical positive integer; 100 as default`  
+`* simulation: numerical positive integer; 10 as default`  
+`*/`  
+_p_-value is estimated as probability on v-axis: _P_(`x`) = _P_(_v_ >= `x`).  
+The estimation is based on resampled data with size (`sampleSize`) for n-time (`simulation`) simulations.
+
+####Examples
+Script 1: `_pValue('1,2');` the result: `{"p":0.504,"x":1.75,"sampleSize":100,"simulation":10}`  
+Script 2: `_pValue('1,2,3');` the result: `{"p":0.323,"x":2.5,"sampleSize":100,"simulation":10}`  
+Script 3: `_pValue('1,2,3',1.1);` the result: `{"p":0.676,"x":1.1,"sampleSize":100,"simulation":10}`  
+Script 4: `_pValue('1,2,3',2,10,1);` the result: `{"p":0.6,"x":2,"sampleSize":10,"simulation":1}`
+
+______
 ##Example with the standard normal distribution
 ###Script used for drawing graph
 * stdNormDist100pt.js
@@ -82,6 +107,15 @@ The sampled size by "draw2Sample.js": `<Sample size:2527>`
    Result: `Rejection rate:0.0163`
 3. `[Resampled size:20;Given mean:0;Simulation:10000times;Significance level:0.025]`  
    Result: `Rejection rate:0.0146`
+   
+###_p_-value estimation
+The sampled size by "draw2Sample.js": `<Sample size:2527>`  
+_p_-value was estimated as probability on v-axis: _P_(`x`) = _P_(_v_ >= `x`).
+
+1. _P_(the upper 25% of given data): `{"p":0.035,"x":1.7000000000000002,"sampleSize":100,"simulation":10}`
+2. _P_(0): `{"p":0.554,"x":0,"sampleSize":100,"simulation":10}`
+3. _P_(-1.96): `{"p":0.966,"x":-1.96,"sampleSize":100,"simulation":10}`
+4. _P_(1.96): `{"p":0.028,"x":1.96,"sampleSize":100,"simulation":10}`
 
 ______
 ##Reference
