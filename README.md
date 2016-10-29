@@ -62,8 +62,8 @@ The alpha value is used in this program; a pixel where alpha > 0 is regarded as 
    * dataLog: csv formatted values expressed as _n_@_y_ for a _n_-th sampling result: _y_ with top left corner as origin.
    * x@f(x): csv formatted values expressed as _x_@_f_ (_x_) for a value of _f_ (_x_) at _x_ with bottom left as origin.
    * __Rnd:__ csv formatted values estimated as results of a sampling.
-   
-______   
+
+______
 ##\(Optional \[v1.2+\]\) Estimating p-value
 
 ______
