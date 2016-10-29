@@ -75,7 +75,9 @@ ______
 `* x: numerical value; the upper 25% of a given values as default`  
 `* sampleSize: numerical positive integer; 100 as default`  
 `* simulation: numerical positive integer; 10 as default`  
-`*/`
+`*/`  
+p-value is estimated as probability: _P_(`x`) = _P_(_v_ >= `x`).  
+The estimation is based on resampled data with size (`sampleSize`) for n-time (`simulation`) simulation.
 
 ______
 ##Example with the standard normal distribution
