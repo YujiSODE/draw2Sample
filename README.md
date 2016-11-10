@@ -120,3 +120,7 @@ _p_-value was estimated as probability on v-axis: _P_(`x`) = _P_(_v_ >= `x`).
 ______
 ##Reference
 * Efron, B. 1979. Bootstrap Methods: Another Look at the Jackknife. Ann. Statist. vol. 7, no. 1, p. 1-26.
+
+
+##\[1.2+\] Library list
+* bootstrapEst-2.1/bootstrapMdl.js (Yuji SODE,2016): the MIT License; https://github.com/YujiSODE/bootstrapEst
