@@ -59,8 +59,8 @@ The alpha value is used in this program; a pixel where alpha > 0 is regarded as 
    * __"Output as email" button;__ it saves the __"Result"__ as email to given address.
 
    ####_Output data_  
-   * dataLog: csv formatted values expressed as _n_@_y_ for a _n_-th sampling result: _y_ with top left corner as origin.
-   * x@f(x): csv formatted values expressed as _x_@_f_ (_x_) for a value of _f_ (_x_) at _x_ with bottom left as origin.
+   * __dataLog:__ csv formatted values expressed as _n_@_y_ for a _n_-th sampling result: _y_ with top left corner as origin.
+   * __*x*@*f(x)*:__ csv formatted values expressed as _x_@_f_ (_x_) for a value of _f_ (_x_) at _x_ with bottom left as origin.
    * __Rnd:__ csv formatted values estimated as results of a sampling.
 
 ______
@@ -120,3 +120,6 @@ _p_-value was estimated as probability on v-axis: _P_(`x`) = _P_(_v_ >= `x`).
 ______
 ##Reference
 * Efron, B. 1979. Bootstrap Methods: Another Look at the Jackknife. Ann. Statist. vol. 7, no. 1, p. 1-26.
+
+##\[1.2+\] Library list
+* bootstrapEst-2.1/bootstrapMdl.js (Yuji SODE,2016): the MIT License; https://github.com/YujiSODE/bootstrapEst

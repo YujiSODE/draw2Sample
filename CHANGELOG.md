@@ -1,5 +1,15 @@
 #Change Log
 
+##[1.2.1] - 2016-11-10
+
+##Changed
+- [README.md] line 62-63: `   * __dataLog:__ csv formatted values expressed as _n_@_y_ for a _n_-th sampling result: _y_ with top left corner as origin.`  
+  `   * __*x*@*f(x)*:__ csv formatted values expressed as _x_@_f_ (_x_) for a value of _f_ (_x_) at _x_ with bottom left as origin.`
+
+##Added
+- [README.md] line 124-125: `##\[1.2+\] Library list`  
+  `* bootstrapEst-2.1/bootstrapMdl.js (Yuji SODE,2016): the MIT License; https://github.com/YujiSODE/bootstrapEst`
+
 ##[1.2] - 2016-10-29
 
 ##Added
