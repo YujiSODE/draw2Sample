@@ -1,5 +1,11 @@
 #Change Log
 
+##[1.2.1] - 2016-11-10
+
+##Added
+- [README.md] line 124-125: `##\[1.2+\] Library list`  
+  `* bootstrapEst-2.1/bootstrapMdl.js (Yuji SODE,2016): the MIT License; https://github.com/YujiSODE/bootstrapEst`
+
 ##[1.2] - 2016-10-29
 
 ##Added
