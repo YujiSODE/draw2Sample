@@ -59,8 +59,8 @@ The alpha value is used in this program; a pixel where alpha > 0 is regarded as 
    * __"Output as email" button;__ it saves the __"Result"__ as email to given address.
 
    ####_Output data_  
-   * dataLog: csv formatted values expressed as _n_@_y_ for a _n_-th sampling result: _y_ with top left corner as origin.
-   * x@f(x): csv formatted values expressed as _x_@_f_ (_x_) for a value of _f_ (_x_) at _x_ with bottom left as origin.
+   * __dataLog:__ csv formatted values expressed as _n_@_y_ for a _n_-th sampling result: _y_ with top left corner as origin.
+   * __*x*@*f(x)*:__ csv formatted values expressed as _x_@_f_ (_x_) for a value of _f_ (_x_) at _x_ with bottom left as origin.
    * __Rnd:__ csv formatted values estimated as results of a sampling.
 
 ______
